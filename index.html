@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>JaiRam</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="java.js"></script>
+    <style>
+    	.checked 
+      {
+        color: orange;
+      }
+</style>
+    <script type="text/javascript">
+    	function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft="250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft="0";
+}
+    </script>
+	</head>
+<body>
+	<div id="mySidenav" class="sidenav nav ml-auto" onmouseleave="closeNav()">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#" onclick="home()">Home</a>
+  <a href="#" onclick="about()">About Me</a>
+  <a href="#" onclick="academics()">Academics</a>
+  <a href="#" onclick="techskills()">Tech-skills</a>
+  <a href="#" onclick="interskills()">Inter-Skills</a>
+  <a href="#"onclick="certificates()">Certificates</a>
+  <a href="#" onclick="contacts()">Contact</a>
+</div>
+<span style="font-size: 30px;cursor: pointer;color: black;" onmouseover="openNav()" onclick="openNav()">&#9776 Menu</span>
+<div id="main"> 
+	<div id="home" style="display: inline;">
+	<div class=" container-fluid pt-3">
+		<div class="row">
+			
+			<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+				<div style="width:100%;margin-top: 7px;margin-top: 20%; font-weight: bold;">
+				<h2 style="font-weight: bold;padding-top:5% ;padding-left:25%;">Hi, </h2>
+				<h2 style="font-weight: bold;padding-left: 25%;"> I am <span style="color:darkblue;">Jai Ram</span></h2>
+				<h2 style="font-weight: bold;padding-left: 25%;">Web Developer,Java Developer</h2>
+				<button  onclick="contact()" style= "background-color: skyblue;width: auto; margin-left: 25%;"><a style="text-decoration: none;color: black;" href="#">Contact</a> </button>
+				<div id="contact" style="padding-left: 25%;display: none;">
+					<a href="mailto:jay.jk655@gmail.com" target="_blank"><img src="logos/email.png" class="img-rounded img-responsive" style="width: 10%;height: 10%;display: inline-flex;" alt="Email"></a>
+					<a href="https://www.linkedin.com/in/jai-ram-00940b21b/" target="_blank"><img src="logos/lin.png" class="img-rounded img-responsive" style="width: 8%;height: 8%;display: inline-flex;" alt="Linkedin"></a>
+					<a href="https://wa.me/+919065859491" target="_blank"><img src="logos/whats.png" class="img-rounded  img-responsive"style="width: 8%;height: 8%;display: inline-flex;" alt="Whatsapp"></a>
+					<a href="skype:+919065859491?chat" target="_blank"><img src="logos/skype.png"class="img-rounded  img-responsive" style="width: 8%;height: 8%;display: inline-flex;" alt="Skype"></a>
+					<a href="https://www.instagram.com/ramon_jai/" target="_blank"><img src="logos/inst.png"class="img-rounded  img-responsive" style="width: 8%;height: 8%;display: inline-flex;" alt="Instagarm"></a>
+				</div>
+			    </div>
+			</div>
+			<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+				<div  style="margin-bottom: 9px;">
+					<div style="width:100%;margin-top: 7px;">
+					<img src="1..png" class="img-circle img-responsive img-thumbnail" alt="Image" width="80%">
+				</div>
+			    </div>
+		    </div>
+		</div>
+	</div>
+</div>
+<div id="about" style="display:none" >
+  <p style="font-size: 30px;margin-left: 10%;margin-top: 8%;color: whitesmoke;"><b><u>About Me</u></b></p>
+	<P style="margin-left:10% ;margin-top: 2%;font-size: 24px;font-weight: bold;
+	width: 50%;">A well-organized, creative and goal-oriented graduate possessing well communication, problem-solving and leadership skills with a flair to explore avenues in Computer applications while developing advanced projects with efficiency and quality.Willing to work in a challenging position with a growing organization, where I can utilize my technical and interpersonal skills to serve the organization and enhanced the same.</P>
+	</div>
+    <div id="Academics"  style="margin-left:5%;padding-top: 3%;display: none;overflow-wrap: break-word;font-size:24px" >
+				<p style="margin-left: 45%;font-size:24px;color: whitesmoke;"><u><b>Academic Details</b></u></p>
+				<br>
+    	<table class="table table-hover" >
+    <thead>
+      <tr><th>Sr_no. </th><th>Course</th><th>Board/univerity</th><th>Passing_year</th><th>Percentage</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1 </td><td>Matriculation</td><td>Punjab School Education Board</td><td>2015</td><td>77.23</td></tr>
+      <tr><td>2 </td><td>Intermediate(PCM)</td><td>Punjab School Education Board</td><td>2017</td><td>61.33</td></tr>
+      <tr><td>3 </td><td>BCA Hons.</td><td>Babasaheb Bhimrao Ambedkar Bihar Univerity, Muzaffarpur</td><td>2020</td><td>72.25</td></tr>
+      <tr><td>4 </td><td>MCA</td><td>Chandigarh University</td><td>2023</td><td>Pursuing</td></tr>
+    </tbody>
+  </table>
+</div>
+    <div id="techskills" style="margin-left:30%;font-size:24px;display: none;">
+    	<table class=" table table-hover ">
+    		<thead><tr><th>&nbsp</th><th style="color:whitesmoke;"><u><b>Technical skills</b> </u></th><th>&nbsp</th></tr></thead>
+    		<tbody>
+    		<tr><td>C</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star "></span><span class="fa fa-star "></span></td></tr>
+    		<tr><td>C++</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star "></span><span class="fa fa-star "></span></td></tr>
+    		<tr><td>Java</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star "></span></td>
+    		<tr><td>Visula Basic</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star "></span></td>
+    		<tr><td>HTML</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star "></span></td>
+    		<tr><td>CSS</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star "></span><span class="fa fa-star "></span></td>
+    		<tr><td>JavScript</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star "></span><span class="fa fa-star "></span></td>
+    		<tr><td>Python</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star "></span></td>
+    		<tr><td>SQL</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star "></span><span class="fa fa-star "></span></td>
+    		<tr><td>Shell Scripting</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span><span class="fa fa-star "></span><span class="fa fa-star "></span></td>
+    		<tr><td>Microsoft office</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked "></span><span class="fa fa-star "></span></td>
+    		<tr><td>Google suite</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star "></span></td>
+    		</tr>
+    	</tbody>
+    	</table>
+    </div>
+    <div id="interskills" style="width:80%;padding-left:20%;padding-top: 5%;display: none;font-size:24px">
+    	<table class=" table table-hover ">
+    		<thead><tr><th>&nbsp</th><th style="color:whitesmoke"><u><b>Interpersonal skills</b></u> </th><th>&nbsp</th></tr></thead>
+    		<tbody>
+    		<tr><td>Hardworking</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked "></span><span class="fa fa-star checked "></span></td></tr>
+    		<tr><td>Fast Learner</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star "></span></td></tr>
+    		<tr><td>Desicion Making</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star "></span></td>
+    		<tr><td>Sincere</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked "></span></td>
+    		<tr><td>Punctual of time</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span></td>
+    		<tr><td>Reliable & Efficient</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span></td>
+    		<tr><td>Team Leadership</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked "></span><span class="fa fa-star "></span></td>
+    		<tr><td>Management and co-ordination</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star  "></span></td>
+    		</tr>
+    	</tbody>
+    	</table>
+    </div>
+    <div id="Certificates" style="width:80%;padding-left:20%;padding-top: 5%;display: none;font-size:24px">
+    	<table class="table table-hover">
+    		<p style="color:whitesmoke";><U><b>Courses</b></U></p>
+    		<thead>
+    			<tr><th>Sr_no.</th><th >Course_Name</th><th>Course Offered_by</th><th>Weblink</th></tr>
+    		</thead>
+    		<tbody>
+    			<tr><td>1</td><td>Advance Styling with Responsive</td><td>Coursera</td><td><a href="https://www.coursera.org/account/accomplishments/certificate/JCGHKTHC3ACX" target="_blank">Credential</a></td></tr>
+    			<tr><td>2</td><td>Interactivity with JavaScript</td><td>Coursera</td><td><a href="https://www.coursera.org/account/accomplishments/certificate/C6Y7SB9JSH9H" target="_blank">Credential</a></td></tr>
+    			<tr><td>3</td><td>Introduction to CSS3</td><td>Coursera</td><td><a href="https://www.coursera.org/account/accomplishments/certificate/YGETRL6A8PB4" target="_blank">Credential</a></td></tr>
+    			<tr><td>4</td><td>Web design for everybody capstone</td><td>Coursera</td><td><a href="https://www.coursera.org/account/accomplishments/certificate/ZRUMY8PBS7CS" target="_blank">Credential</a></td></tr>
+    			<tr><td>5</td><td>Introduction of HTML5</td><td>Coursera</td><td><a href="https://www.coursera.org/account/accomplishments/certificate/8CUTFCV6NEHV" target="_blank">Credential</a></td></tr>
+    			<tr><td>6</td><td>Web design for everybody:basic of web development & coding specialization</td><td>Coursera</td><td><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/PKAQD2TS5E7G" target="_blank">Credential</a></td></tr>
+    		</tbody>
+    	</table>
+    </div>
+    <div id="contacts" style="display:none">
+    	
+    	<div class="details" style="font-size:24px;margin-top:10% ;margin-left: 10%;">
+    		<p style="font-size: 28px;color: whitesmoke;"><u><b>Contact</b></u></p>
+    		<P>Email:-<a href="mailto:jay.jk655@gmail.com">jay.jk655@gmail.com</a></P>
+    		<P>Phone NO:- <a href="http://www.wa.me/+919065859491">+919065859491</a></P>
+    		<p>Web site:-<a href="#">example.com</a></p>
+    		<P>Address:- <span>Kothiya Sheohar,Bihar</span></P>
+    		<p>Pin Code:- 843329</p>
+    	</div>
+    	<div class="links" style="margin-left:10%"> 
+    	    <a href="mailto:jay.jk655@gmail.com"><img src="logos/email.png" class="img-rounded img-responsive" style="width: 5%;height: 5%;display: inline-flex;" alt="Email"></a>
+					<a href="https://www.linkedin.com/in/jai-ram-00940b21b/"><img src="logos/lin.png" class="img-rounded img-responsive" style="width: 4%;height: 4%;display: inline-flex;" alt="Linkedin"></a>
+					<a href="https://wa.me/+919065859491" target="_blank"><img src="logos/whats.png" class="img-rounded  img-responsive"style="width: 4%;height: 4%;display: inline-flex;" alt="Whatsapp"></a>
+					<a href="skype:+919065859491?chat"><img src="logos/skype.png"class="img-rounded  img-responsive" style="width: 4%;height: 4%;display: inline-flex;" alt="Skype"></a>
+					<a href="https://www.instagram.com/ramon_jai/"><img src="logos/inst.png"class="img-rounded  img-responsive" style="width: 4%;height: 4%;display: inline-flex;" alt="Instagarm"></a>
+				</div>
+    </div>
+</div>
+</body>
+</html>

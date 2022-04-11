@@ -44,15 +44,15 @@ body
 {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-  #Academics table {font-size: 12px;margin-left: 2px;padding-left: 2px;}
+  #Academics table {font-size: 12px;margin-left: 2px;padding-left: 2px;height: 100%;}
   #techskills table {font-size: 14px;margin-left:}
   #interskills table {font-size: 12px;margin-left: 2px;padding-left: 2px;}
   #Certificates table {font-size: 12px;margin-left: 2px;padding-left: 2px;}
 }
 @media screen and (max-width: 630px)
 {
-  #Academics table {font-size: 14px;margin-left: 2px;padding-left: 2px;}
-  #techskills table {font-size: 14px;margin-right: 10%;}
+  #Academics table {font-size: 12px;padding-left: 2px; margin-right: 2px;}
+  #techskills table {font-size: 14px;margin-right: 5%;}
   #interskills table {font-size: 12px;margin-left: 2px;padding-left: 2px;}
   #Certificates table {font-size: 12px;margin-left: 2px;padding-left: 2px;}
   #contacts p {font-size: 16px;}
